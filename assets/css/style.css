@@ -1,0 +1,74 @@
+/* @font-face {
+    font-family: 'Pokemon Solid';
+    src: url("../fonts/pokemonSolid.ttf") format("truetype");
+} */
+
+@font-face {
+    font-family: 'Dinofans';
+    src: url("../fonts/Dinofans.ttf") format("truetype");
+}
+
+body {
+    background-image: url(../imgs/background\ solo.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 0;
+}
+
+.imgTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transform: translateX(-20px);
+}
+
+.imgTitle img {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+}
+
+#pokemonImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+}
+
+#pokeImg {
+    /* filter:drop-shadow(10px 10px 10px rgb(180, 180, 180)); */
+    width: 15%;
+    padding-bottom: 600px;
+    margin: 0;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    margin-top: -130px;
+}
+
+#proposition {
+    border-radius: 15px;
+    height: 30px;
+    width: 400px;
+    border-style: none;
+}
+
+.resultat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Dinofans';
+    font-size: 20px;
+}
+
+input {
+    z-index: 1000
+}
